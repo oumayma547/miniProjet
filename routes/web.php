@@ -25,3 +25,13 @@ Route::post('/students/signup', [StudentController::class, 'store'])->name('stud
 Route::get('/students/index', [StudentController::class, 'index'])->name('student.index');
 
 Route::get('/admin/index', [LoginController::class, 'showAdminSpace'])->name('admin.index');
+
+
+Route::prefix('admin')->name('admin.')->group(function(){
+    Route::get('/home',[UsersController::class,'index'])->name('home');
+    Route::post('/{id}/edit',[UsersController::class,'edit'])->name('edit');
+    Route::get('/{id}/update',[UsersController::class,'update'])->name('update');
+
+    Route::delete('/{id}/destroy',[UsersController::class,'destroy'])->name('destroy');
+
+});
