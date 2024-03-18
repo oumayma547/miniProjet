@@ -16,20 +16,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
-<div class="sidebar">
-    <div class="profile-image mx-auto">
-        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Random User" class="rounded-circle">
-    </div>
-    <a href="#"><i class="fa fa-home"></i> Dashboard</a>
-    <a href="/admin/home"><i class="fa fa-user"> </i> Utilisateurs</a>
-    <a href="#"><i class='fa fa-school'></i> Administration</a>
-    <a href="#"><i class="fas fa-chalkboard-teacher"></i> Etudiants</a>
-    <a href="#"><i class="fa fa-home"></i>  Classes</a>
-    <a href="#"><i class="fa fa-question-circle"> </i> Demandes</a>
-    <a href="#"><i class="	fas fa-comment-dots"> </i> Notifications</a>
-    <a href="#"><i class="fa fa-gear"></i>  Paramètres</a>
 
-</div>
 
 
  <div class="content">
