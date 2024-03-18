@@ -65,6 +65,8 @@
                            <input type="text" class="form-control" id ="email" value="{{$user->email}}" name="email">
                        </div>
                         <button class="btn btn-primary" type="submit">Update Profile</button>
+                        <button class="btn btn-primary" type="submit">Update Profile</button>
+
                    </form>
                 </div>
             </div>
