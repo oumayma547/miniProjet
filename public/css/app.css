@@ -1,0 +1,7 @@
+/* resources/css/app.css */
+
+/* Vos styles personnalisés */
+
+@import url('../vendor/adminlte/plugins/fontawesome-free/css/all.min.css');
+@import url('../vendor/adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css');
+@import url('../vendor/adminlte/dist/css/adminlte.min.css');
