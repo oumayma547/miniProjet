@@ -10,12 +10,16 @@
         </ul>
     </div>
 @endif
+
 <style>
-  .login-page{
-      background-image: url('images/issat.png');
-      background-size: cover; 
-      background-repeat: no-repeat;
-      background-position: center;         }
+  body{
+    
+    background-image: url('../../images/issat.png');
+    background-size: cover; 
+    background-position: center; 
+
+
+}
 </style>
 <body class="hold-transition login-page"  >;
 

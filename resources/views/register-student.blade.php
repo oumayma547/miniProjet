@@ -1,6 +1,7 @@
 @extends('welcome')
 @section('content')
-
+<style>
+  
 <body class="hold-transition register-page">
 <div class="register-box">
 <div class="register-logo">
