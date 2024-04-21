@@ -5,8 +5,8 @@
              <div class="col-sm-6 col-md-4 col-xl-3">
                  <div class="single-footer-widget footer_1">
                      <a href="index.html"> <img src="{{asset('front/img')}}/logo.png" alt=""> </a>
-                     <p> L'Institut supérieur des sciences appliquées et de technologie de Sousse ou ISSATS
-                         est un établissement scientifique relevant de l'université de Sousse.</p>
+                     <p> The Higher Institute of Applied Sciences and Technology of Sousse 
+                        or ISSATS is a scientific establishment under the University of Sousse.</p>
 
                  </div>
              </div>

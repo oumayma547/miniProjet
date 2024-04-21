@@ -53,8 +53,8 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="single-blog.html">Programming</a>
-                                        <a class="dropdown-item" href="elements.html">electro-mecanique</a>
-                                        <a class="dropdown-item" href="elements.html">Génie-Civil</a>
+                                        <a class="dropdown-item" href="elements.html">electro-mechanical</a>
+                                        <a class="dropdown-item" href="elements.html">Civil Engineering</a>
                                     </div>
                                 </li>
 
@@ -64,11 +64,26 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="single-blog.html">Licences</a>
-                                        <a class="dropdown-item" href="elements.html">Mastéres</a>
-                                        <a class="dropdown-item" href="elements.html">Cycle Préparatoire</a>
-                                        <a class="dropdown-item" href="elements.html">Cycle Ingénieure</a>
+                                        <a class="dropdown-item" href="elements.html">Masters</a>
+                                        <a class="dropdown-item" href="elements.html">Preparatory cycle</a>
+                                        <a class="dropdown-item" href="elements.html">Engineering cycle</a>
                                     </div>
                                 </li>
+
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        E-Forms
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="{{ route('front.formpage') }}">Demande</a>
+
+                                    </div>
+                                </li>
+
+
+
+
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('front.contactpage') }}">Contact</a>
                                 </li>
