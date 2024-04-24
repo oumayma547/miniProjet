@@ -5,3 +5,22 @@
 @import url('../../vendor/almasaeed2010/adminlte/plugins/fontawesome-free/css/all.min.css');
 @import url('../../vendor/almasaeed2010/adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css');
 @import url('../../vendor/almasaeed2010/adminlte/dist/css/adminlte.min.css');
+.pagination .page-link {
+    font-size: 0.8rem; /* Réduit la taille de la police */
+    padding: 0.3rem 0.6rem; /* Réduit l'espacement intérieur des liens */
+}
+
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+    padding: 0.3rem 0.3rem; /* Réduit l'espacement intérieur des premières et dernières flèches */
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d; /* Change la couleur des flèches désactivées pour les rendre moins visibles */
+}
+body {
+        background-image: url('{{ asset('images/issat.jpeg') }}');
+        /* Specify other background properties */
+        background-size: cover; /* Cover the entire background */
+        background-position: center; /* Center the background image */
+    }

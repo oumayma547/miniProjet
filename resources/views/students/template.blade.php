@@ -156,7 +156,12 @@ Nora Silvester
 <img src="{{ asset('vendor/adminlte/dist/img/AdminLTELogo.png') }}" class="img-circle elevation-2" alt="User Image">
 </div>
 <div class="info">
-<a href="#" class="d-block">Alexander Pierce</a>
+  @if (Auth::check())
+    <span class="direct-chat-name float-left">{{ Auth::user()->name }}</span>
+    <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
+  @else
+      <p>Unknown</p>
+  @endif
 </div>
 </div>
 
@@ -952,8 +957,13 @@ Sales
 
 <div class="direct-chat-msg">
 <div class="direct-chat-infos clearfix">
-<span class="direct-chat-name float-left">Alexander Pierce</span>
-<span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
+  @if (Auth::check())
+    <span class="direct-chat-name float-left">{{ Auth::user()->name }}</span>
+    <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
+  @else
+      <p>Non connecté</p>
+  @endif
+
 </div>
 
 <img class="direct-chat-img" src="{{ asset('vendor/adminlte/dist/img/AdminLTELogo.png') }}" alt="message user image">
@@ -982,8 +992,12 @@ You better believe it!
 
 <div class="direct-chat-msg">
 <div class="direct-chat-infos clearfix">
-<span class="direct-chat-name float-left">Alexander Pierce</span>
-<span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
+  @if (Auth::check())
+    <span class="direct-chat-name float-left">{{ Auth::user()->name }}</span>
+    <span class="direct-chat-timestamp float-right">23 Jan 2:00 pm</span>
+  @else
+      <p>Non connecté</p>
+  @endif
 </div>
 
 <img class="direct-chat-img" src="{{ asset('vendor/adminlte/dist/img/AdminLTELogo.png') }}" alt="message user image">

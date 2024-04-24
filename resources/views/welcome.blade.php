@@ -13,6 +13,9 @@
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
+        <script src="https://kit.fontawesome.com/a5fe3a1340.js" crossorigin="anonymous"></script>
+        
+
     </head>
     <body >
         @yield('content')

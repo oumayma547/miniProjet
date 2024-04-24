@@ -1,11 +1,12 @@
 @extends('welcome')
 @section('content')
-<style>
-  
+
+
 <body class="hold-transition register-page">
 <div class="register-box">
 <div class="register-logo">
-<a href=""><b>ISSAT</b>SO</a>
+<a ><b>ISSAT</b>SO</a><br>
+<img src="{{ asset('/images/issat.jpeg') }}" alt=""  width="100px" height="50px">
 </div>
 <div class="card">
 <div class="card-body register-card-body">

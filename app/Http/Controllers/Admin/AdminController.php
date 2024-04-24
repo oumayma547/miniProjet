@@ -11,8 +11,8 @@ class AdminController extends Controller
     function check(Request $request){
         $request->validate([
             'email'=>'required|email|exists:admins,email',
-            'password'=>'required'        
-        
+            'password'=>'required'
+
         ],[
             'email.exists'=>'this email is not exists on users table'
         ]);
@@ -27,10 +27,11 @@ class AdminController extends Controller
     }
 
     function logout()
-    { Auth::guard('admin')->logout();
+    {
+      Auth::guard('admin')->logout();
       return redirect("/");
-}
+    }
 
 
-  
+
 }

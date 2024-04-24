@@ -11,24 +11,15 @@
     </div>
 @endif
 
-<style>
-  body{
-    
-    background-image: url('../../images/issat.png');
-    background-size: cover; 
-    background-position: center; 
+<body class="hold-transition login-page"  >
 
 
-}
-</style>
-<body class="hold-transition login-page"  >;
-
-  
   <div class="login-box">
 
   <div class="card card-outline card-primary">
   <div class="card-header text-center">
-  <a href="" class="h1"><b>ISSAT</b>SO</a>
+  <a href="" class="h1"><b>ISSAT</b>SO</a><br>
+  <img src="{{ asset('/images/issat.jpeg') }}" alt=""  width="100px" height="50px">
   </div>
   <div class="card-body">
   <p class="login-box-msg">Sign in to start your session</p>
